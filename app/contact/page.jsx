@@ -8,34 +8,16 @@ import { motion } from "framer-motion";
 const Contact = () => {
   const socialLinks = [
     {
-      icon: <FaLinkedin className="text-2xl" />,
-      label: "LinkedIn",
-      url: "https://in.linkedin.com/in/aaditya-mishr",
-      username: "Aditya Mishra"
-    },
-    {
       icon: <MdEmail className="text-2xl" />,
       label: "Email",
-      url: "mailto:adityamishra9124@gmail.com",
-      username: "adityamishra9124@gmail.com"
-    },
-    {
-      icon: <SiLeetcode className="text-2xl" />,
-      label: "LeetCode",
-      url: "https://leetcode.com/u/aditya-mishr/",
-      username: "aditya-mishr"
+      url: "mailto:electrondevelopers6@gmail.com",
+      username: "electrondevelopers6@gmail.com"
     },
     {
       icon: <FaGithub className="text-2xl" />,
       label: "GitHub",
-      url: "https://github.com/Aditya-Mishra799",
-      username: "Aditya-Mishra799"
-    },
-    {
-      icon: <FaHackerrank className="text-2xl" />,
-      label: "HackerRank",
-      url: "https://www.hackerrank.com/profile/adityamishra9124",
-      username: "adityamishra9124"
+      url: "https://github.com/electrondevelopers6",
+      username: "Electron Developers"
     },
   ];
 
@@ -65,7 +47,7 @@ const Contact = () => {
         >
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Meet the Developer</h2>
-            <h3 className="text-2xl font-semibold text-active-orange mb-2">Aditya Shyamanand Mishra</h3>
+            <h3 className="text-2xl font-semibold text-active-orange mb-2">Electron Developers</h3>
             <p className="text-gray-600">Full Stack Developer | GetFlats Creator</p>
           </div>
 

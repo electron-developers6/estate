@@ -46,24 +46,17 @@ const Footer = () => {
           {/* Developer Info */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Developer</h4>
-            <p className="text-gray-400 mb-2">Aditya Shyamanand Mishra</p>
+            <p className="text-gray-400 mb-2">Electron Developers</p>
             <div className="flex space-x-4">
               <Link 
-                href="https://github.com/Aditya-Mishra799" 
+                href="https://github.com/electrondevelopers6" 
                 target="_blank"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <FaGithub size={24} />
               </Link>
               <Link 
-                href="https://linkedin.com/in/aditya-mishra-b4050a291" 
-                target="_blank"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <FaLinkedin size={24} />
-              </Link>
-              <Link 
-                href="mailto:adityamishra9124@gmail.com"
+                href="mailto:electrondevelopers6@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <FaEnvelope size={24} />
